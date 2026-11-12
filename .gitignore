@@ -1,0 +1,17 @@
+# The iOS SDK binary is downloaded by Tools~/fetch-ios-sdk.sh
+Native~/iOS/MoonetixOfferwall.xcframework/
+# Unity project folders, if you open the package inside a test project
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+[Bb]uild/
+[Ll]ogs/
+UserSettings/
+*.csproj
+!/Tests~/DotNet/Moonetix.Offerwall.DotNetTests.csproj
+*.sln
+.vs/
+.idea/
+.env
+.DS_Store

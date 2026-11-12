@@ -1,0 +1,34 @@
+{
+  "name": "com.moonetix.offerwall",
+  "version": "2.0.1",
+  "displayName": "Moonetix Offerwall",
+  "description": "Show the Moonetix offerwall in your Android and iOS game. Your server creates a single-use session, and the plugin opens the native Moonetix SDK with it. No key ships inside your game.",
+  "unity": "2022.3",
+  "documentationUrl": "https://docs.moonetix.com/unity-sdk",
+  "changelogUrl": "https://docs.moonetix.com/unity-sdk#changelog",
+  "licensesUrl": "https://docs.moonetix.com/unity-sdk#license",
+  "license": "Apache-2.0",
+  "keywords": [
+    "offerwall",
+    "rewarded",
+    "monetization",
+    "android",
+    "ios",
+    "moonetix"
+  ],
+  "author": {
+    "name": "Moonetix",
+    "email": "partners@moonetix.com",
+    "url": "https://moonetix.com"
+  },
+  "dependencies": {
+    "com.unity.modules.androidjni": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Offerwall demo",
+      "description": "A scene with an Earn button that gets a session token from your server and opens the offerwall, and a log of the offerwall events.",
+      "path": "Samples~/OfferwallDemo"
+    }
+  ]
+}
