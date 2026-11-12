@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Runs the edit mode tests that do not touch UnityEngine or UnityEditor with plain .NET,
+    so CI needs no Unity install. ApiTests and OptionsTests need the Unity Test Runner.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>Moonetix.Offerwall.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Runtime/MoonetixError.cs" />
+    <Compile Include="../../Runtime/Internal/MoonetixValidation.cs" />
+    <Compile Include="../../Editor/MoonetixGradlePatcher.cs" />
+    <Compile Include="../../Editor/MoonetixIosVersion.cs" />
+    <Compile Include="../../Tests/Editor/ValidationTests.cs" />
+    <Compile Include="../../Tests/Editor/ErrorTests.cs" />
+    <Compile Include="../../Tests/Editor/EditorStepTests.cs" />
+    <Compile Include="IosBuildStub.cs" />
+    <Compile Include="Samples.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+</Project>
