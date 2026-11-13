@@ -2,6 +2,8 @@
   <!--
     Runs the edit mode tests that do not touch UnityEngine or UnityEditor with plain .NET,
     so CI needs no Unity install. ApiTests and OptionsTests need the Unity Test Runner.
+    NUnit stays on 3.x: the same test files run in the Unity Test Runner, which ships NUnit 3,
+    and the assertions of later majors need a C# version Unity does not compile.
   -->
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>

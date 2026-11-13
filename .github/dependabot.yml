@@ -5,6 +5,7 @@ updates:
     schedule:
       interval: monthly
     ignore:
+      # Unity runs these tests on NUnit 3, see Tests~/DotNet.
       - dependency-name: NUnit
         update-types:
           - version-update:semver-major
