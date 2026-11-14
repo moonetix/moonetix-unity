@@ -7,14 +7,13 @@
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE.md)
 [![UPM](https://img.shields.io/badge/UPM-com.moonetix.offerwall%202.0.1-222222)](https://docs.moonetix.com/unity-sdk#install)
 [![Docs](https://img.shields.io/badge/docs-docs.moonetix.com-004ABB)](https://docs.moonetix.com/unity-sdk)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-moonetix-unity)
 [![Unity 2022.3+](https://img.shields.io/badge/Unity-2022.3%20LTS%20%7C%206-222222)](https://moonetix.com/integrations/unity)
 
 This is the source of the `com.moonetix.offerwall` package for [Moonetix](https://moonetix.com). Inside, it calls the native Moonetix Android and iOS SDKs, so the offerwall screen, your top bar branding and store links behave exactly as in a native app. Moonetix is an affiliate network: players earn your in-game currency by completing offers, and you earn per completed offer.
 
 The contents match the released 2.0.1 package. Games should install it from the Moonetix registry.
 
-> **Get your App ID and API key: sign up free at https://moonetix.com/register?from=github-moonetix-unity**
+> To run it you need your Moonetix App ID and API key: see [Sign up](#sign-up).
 
 ## Built for game builds
 
@@ -215,7 +214,7 @@ Clicks through the plugin show as `sdk` in the `{integration}` postback macro. F
 
 ## Sign up
 
-**https://moonetix.com/register?from=github-moonetix-unity** is free. Every publisher application is reviewed by hand. After approval, add the game, name your currency and set its rate, pass the App ID to `Moonetix.Init`, and keep the API key on your server.
+https://moonetix.com/register?from=github-moonetix-unity is free. Every publisher application is reviewed by hand. After approval, add the game, name your currency and set its rate, pass the App ID to `Moonetix.Init`, and keep the API key on your server.
 
 ## More Moonetix examples
 
