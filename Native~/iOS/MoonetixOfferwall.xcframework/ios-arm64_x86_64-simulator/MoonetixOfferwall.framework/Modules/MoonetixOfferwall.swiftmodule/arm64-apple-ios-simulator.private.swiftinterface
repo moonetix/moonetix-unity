@@ -1,0 +1,86 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MoonetixOfferwall
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Foundation
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(Moonetix) final public class Moonetix : ObjectiveC.NSObject {
+  @objc(sdkVersion) public static let version: Swift.String
+  @objc weak public static var delegate: (any MoonetixOfferwall.MoonetixDelegate)?
+  public static var onOpened: (() -> Swift.Void)?
+  public static var onClosed: (() -> Swift.Void)?
+  public static var onError: ((MoonetixOfferwall.MoonetixError) -> Swift.Void)?
+  @objc(configureWithAppId:) public static func configure(appId: Swift.String)
+  @objc(openWithToken:from:options:) public static func open(token: Swift.String, from presenter: UIKit.UIViewController? = nil, options: MoonetixOfferwall.MoonetixOptions? = nil)
+  @objc public static func close()
+  @objc deinit
+}
+@objc public protocol MoonetixDelegate {
+  @objc optional func moonetixDidOpen()
+  @objc optional func moonetixDidClose()
+  @objc(moonetixDidFailWithError:) optional func moonetixDidFail(with error: MoonetixOfferwall.MoonetixError)
+}
+@objc public enum MoonetixErrorCode : Swift.Int {
+  case notInitialized = 0
+  case invalidAppId = 1
+  case invalidToken = 2
+  case tokenExpiredOrUsed = 3
+  case network = 4
+  case unknown = 5
+  public var name: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc(MoonetixError) final public class MoonetixError : ObjectiveC.NSObject, Swift.Error {
+  @objc final public let code: MoonetixOfferwall.MoonetixErrorCode
+  @objc final public let message: Swift.String
+  @objc final public var codeName: Swift.String {
+    @objc get
+  }
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc override final public var hash: Swift.Int {
+    @objc get
+  }
+  @objc deinit
+}
+extension MoonetixOfferwall.MoonetixError : Foundation.LocalizedError {
+  final public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc public enum MoonetixPresentation : Swift.Int {
+  case fullScreen = 0
+  case sheet = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(MoonetixOptions) final public class MoonetixOptions : ObjectiveC.NSObject {
+  @objc final public var title: Swift.String?
+  @objc final public var toolbarColor: UIKit.UIColor?
+  @objc final public var showLogo: Swift.Bool
+  @objc final public var presentation: MoonetixOfferwall.MoonetixPresentation
+  @objc public init(title: Swift.String? = nil, toolbarColor: UIKit.UIColor? = nil, showLogo: Swift.Bool = true, presentation: MoonetixOfferwall.MoonetixPresentation = .fullScreen)
+  @objc deinit
+}
+extension MoonetixOfferwall.MoonetixErrorCode : Swift.Equatable {}
+extension MoonetixOfferwall.MoonetixErrorCode : Swift.Hashable {}
+extension MoonetixOfferwall.MoonetixErrorCode : Swift.RawRepresentable {}
+extension MoonetixOfferwall.MoonetixPresentation : Swift.Equatable {}
+extension MoonetixOfferwall.MoonetixPresentation : Swift.Hashable {}
+extension MoonetixOfferwall.MoonetixPresentation : Swift.RawRepresentable {}

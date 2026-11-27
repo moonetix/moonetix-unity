@@ -1,6 +1,6 @@
 {
   "name": "com.moonetix.offerwall",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "displayName": "Moonetix Offerwall",
   "description": "Show the Moonetix offerwall in your Android and iOS game. Your server creates a single-use session, and the plugin opens the native Moonetix SDK with it. No key ships inside your game.",
   "unity": "2022.3",

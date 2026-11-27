@@ -1,0 +1,4 @@
+framework module MoonetixOfferwall {
+  header "MoonetixOfferwall-Swift.h"
+  requires objc
+}

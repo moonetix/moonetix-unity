@@ -24,7 +24,7 @@ namespace MoonetixOfferwall
     public static class Moonetix
     {
         /// <summary>Version of this plugin.</summary>
-        public const string Version = "2.0.1";
+        public const string Version = "2.0.2";
 
         private static string s_appId;
         private static bool s_initRejected;

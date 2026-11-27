@@ -191,7 +191,7 @@ namespace MoonetixOfferwall.Tests
         [Test]
         public void VersionIsSet()
         {
-            Assert.AreEqual("2.0.1", Moonetix.Version);
+            Assert.AreEqual("2.0.2", Moonetix.Version);
         }
     }
 }

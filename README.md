@@ -11,7 +11,7 @@
 
 This is the source of the `com.moonetix.offerwall` package for [Moonetix](https://moonetix.com). Inside, it calls the native Moonetix Android and iOS SDKs, so the offerwall screen, your top bar branding and store links behave exactly as in a native app. Moonetix is an affiliate network: players earn your in-game currency by completing offers, and you earn per completed offer.
 
-The contents match the released 2.0.1 package. Games should install it from the Moonetix registry.
+The contents match the released 2.0.2 package, including the iOS SDK binary. Games should install it from the Moonetix registry.
 
 > To run it you need your Moonetix App ID and API key: see [Sign up](#sign-up).
 
@@ -158,7 +158,7 @@ Events drive your UI, not the player's balance. Credit rewards from the signed p
 | `Editor/` | Gradle and Xcode build steps |
 | `Tests/Editor/` | Edit mode tests: validation, errors, options, API, build steps |
 | `Samples~/OfferwallDemo/` | Demo scene with an Earn button and an event log |
-| `Native~/iOS/` | Location of the iOS SDK binary, filled by `Tools~/fetch-ios-sdk.sh` |
+| `Native~/iOS/` | The iOS SDK binary, `MoonetixOfferwall.xcframework` 2.0.1 |
 
 ## Security checklist
 
@@ -174,18 +174,11 @@ Events drive your UI, not the player's balance. Credit rewards from the signed p
 
 ### From this source
 
-The iOS SDK binary is not in this repository. Before you add this folder to a project as a local package, or run the edit mode tests, fetch it from the repository root:
-
-```bash
-sh "Tools~/fetch-ios-sdk.sh"
-```
-
-The script downloads `MoonetixOfferwall-2.0.1.xcframework.zip` from moonetix.com, checks its SHA-256 and unpacks it to `Native~/iOS/`. Then add the package from disk in the Package Manager, add `com.moonetix.offerwall` to `testables` in your project's `Packages/manifest.json`, and run the edit mode tests in the Test Runner.
+The iOS SDK binary is in `Native~/iOS/`. To replace it with a fresh copy of the release, run `sh "Tools~/fetch-ios-sdk.sh"`: it downloads `MoonetixOfferwall-2.0.1.xcframework.zip` from moonetix.com, checks its SHA-256 and unpacks it there. Add the package from disk in the Package Manager, add `com.moonetix.offerwall` to `testables` in your project's `Packages/manifest.json`, and run the edit mode tests in the Test Runner.
 
 Without Unity, .NET 8 runs the validation, error and build step tests, and Node checks `package.json` and the `.meta` files:
 
 ```bash
-sh "Tools~/fetch-ios-sdk.sh"     # once; PackageShipsTheIosFramework needs the binary
 dotnet test "Tests~/DotNet"      # 41 tests
 node "Tools~/check-package.mjs"
 ```

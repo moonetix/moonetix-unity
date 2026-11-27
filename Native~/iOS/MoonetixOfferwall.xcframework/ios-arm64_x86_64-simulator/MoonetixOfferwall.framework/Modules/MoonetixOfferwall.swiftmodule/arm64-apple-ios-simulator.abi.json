@@ -1,0 +1,3363 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MoonetixOfferwall",
+    "printedName": "MoonetixOfferwall",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Moonetix",
+        "printedName": "Moonetix",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cpy)sdkVersion",
+            "mangledName": "$s17MoonetixOfferwall0A0C7versionSSvpZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "objc_name": "sdkVersion",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cm)sdkVersion",
+                "mangledName": "$s17MoonetixOfferwall0A0C7versionSSvgZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MoonetixOfferwall.MoonetixDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cpy)delegate",
+            "mangledName": "$s17MoonetixOfferwall0A0C8delegateAA0A8Delegate_pSgvpZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MoonetixOfferwall.MoonetixDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixDelegate",
+                        "printedName": "any MoonetixOfferwall.MoonetixDelegate",
+                        "usr": "c:@M@MoonetixOfferwall@objc(pl)MoonetixDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cm)delegate",
+                "mangledName": "$s17MoonetixOfferwall0A0C8delegateAA0A8Delegate_pSgvgZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MoonetixOfferwall.MoonetixDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixDelegate",
+                        "printedName": "any MoonetixOfferwall.MoonetixDelegate",
+                        "usr": "c:@M@MoonetixOfferwall@objc(pl)MoonetixDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cm)setDelegate:",
+                "mangledName": "$s17MoonetixOfferwall0A0C8delegateAA0A8Delegate_pSgvsZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8delegateAA0A8Delegate_pSgvMZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8delegateAA0A8Delegate_pSgvMZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onOpened",
+            "printedName": "onOpened",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A0C8onOpenedyycSgvpZ",
+            "mangledName": "$s17MoonetixOfferwall0A0C8onOpenedyycSgvpZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8onOpenedyycSgvgZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8onOpenedyycSgvgZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8onOpenedyycSgvsZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8onOpenedyycSgvsZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8onOpenedyycSgvMZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8onOpenedyycSgvMZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onClosed",
+            "printedName": "onClosed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A0C8onClosedyycSgvpZ",
+            "mangledName": "$s17MoonetixOfferwall0A0C8onClosedyycSgvpZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8onClosedyycSgvgZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8onClosedyycSgvgZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8onClosedyycSgvsZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8onClosedyycSgvsZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C8onClosedyycSgvMZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C8onClosedyycSgvMZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onError",
+            "printedName": "onError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MoonetixOfferwall.MoonetixError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoonetixOfferwall.MoonetixError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixError",
+                        "printedName": "MoonetixOfferwall.MoonetixError",
+                        "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvpZ",
+            "mangledName": "$s17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvpZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MoonetixOfferwall.MoonetixError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoonetixOfferwall.MoonetixError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MoonetixError",
+                            "printedName": "MoonetixOfferwall.MoonetixError",
+                            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvgZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvgZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MoonetixOfferwall.MoonetixError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MoonetixOfferwall.MoonetixError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MoonetixError",
+                            "printedName": "MoonetixOfferwall.MoonetixError",
+                            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvsZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvsZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvMZ",
+                "mangledName": "$s17MoonetixOfferwall0A0C7onErroryAA0aD0CcSgvMZ",
+                "moduleName": "MoonetixOfferwall",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(appId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cm)configureWithAppId:",
+            "mangledName": "$s17MoonetixOfferwall0A0C9configure5appIdySS_tFZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "objc_name": "configureWithAppId:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(token:from:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoonetixOfferwall.MoonetixOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixOptions",
+                    "printedName": "MoonetixOfferwall.MoonetixOptions",
+                    "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cm)openWithToken:from:options:",
+            "mangledName": "$s17MoonetixOfferwall0A0C4open5token4from7optionsySS_So16UIViewControllerCSgAA0A7OptionsCSgtFZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "objc_name": "openWithToken:from:options:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix(cm)close",
+            "mangledName": "$s17MoonetixOfferwall0A0C5closeyyFZ",
+            "moduleName": "MoonetixOfferwall",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoonetixOfferwall@objc(cs)Moonetix",
+        "mangledName": "$s17MoonetixOfferwall0A0C",
+        "moduleName": "MoonetixOfferwall",
+        "objc_name": "Moonetix",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoonetixDelegate",
+        "printedName": "MoonetixDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "moonetixDidOpen",
+            "printedName": "moonetixDidOpen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(pl)MoonetixDelegate(im)moonetixDidOpen",
+            "mangledName": "$s17MoonetixOfferwall0A8DelegateP15moonetixDidOpenyyF",
+            "moduleName": "MoonetixOfferwall",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoonetixOfferwall.MoonetixDelegate>",
+            "sugared_genericSig": "<Self where Self : MoonetixOfferwall.MoonetixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "moonetixDidClose",
+            "printedName": "moonetixDidClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(pl)MoonetixDelegate(im)moonetixDidClose",
+            "mangledName": "$s17MoonetixOfferwall0A8DelegateP16moonetixDidCloseyyF",
+            "moduleName": "MoonetixOfferwall",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoonetixOfferwall.MoonetixDelegate>",
+            "sugared_genericSig": "<Self where Self : MoonetixOfferwall.MoonetixDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "moonetixDidFail",
+            "printedName": "moonetixDidFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixError",
+                "printedName": "MoonetixOfferwall.MoonetixError",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(pl)MoonetixDelegate(im)moonetixDidFailWithError:",
+            "mangledName": "$s17MoonetixOfferwall0A8DelegateP15moonetixDidFail4withyAA0A5ErrorC_tF",
+            "moduleName": "MoonetixOfferwall",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoonetixOfferwall.MoonetixDelegate>",
+            "sugared_genericSig": "<Self where Self : MoonetixOfferwall.MoonetixDelegate>",
+            "protocolReq": true,
+            "objc_name": "moonetixDidFailWithError:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@MoonetixOfferwall@objc(pl)MoonetixDelegate",
+        "mangledName": "$s17MoonetixOfferwall0A8DelegateP",
+        "moduleName": "MoonetixOfferwall",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoonetixErrorCode",
+        "printedName": "MoonetixErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixErrorCode.Type) -> MoonetixOfferwall.MoonetixErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixErrorCode",
+                        "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode@MoonetixErrorCodeNotInitialized",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO14notInitializedyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "invalidAppId",
+            "printedName": "invalidAppId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixErrorCode.Type) -> MoonetixOfferwall.MoonetixErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixErrorCode",
+                        "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode@MoonetixErrorCodeInvalidAppId",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO12invalidAppIdyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "invalidToken",
+            "printedName": "invalidToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixErrorCode.Type) -> MoonetixOfferwall.MoonetixErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixErrorCode",
+                        "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode@MoonetixErrorCodeInvalidToken",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO12invalidTokenyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "tokenExpiredOrUsed",
+            "printedName": "tokenExpiredOrUsed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixErrorCode.Type) -> MoonetixOfferwall.MoonetixErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixErrorCode",
+                        "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode@MoonetixErrorCodeTokenExpiredOrUsed",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO18tokenExpiredOrUsedyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixErrorCode.Type) -> MoonetixOfferwall.MoonetixErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixErrorCode",
+                        "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode@MoonetixErrorCodeNetwork",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO7networkyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixErrorCode.Type) -> MoonetixOfferwall.MoonetixErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixErrorCode",
+                        "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode@MoonetixErrorCodeUnknown",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO7unknownyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A9ErrorCodeO4nameSSvp",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO4nameSSvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A9ErrorCodeO4nameSSvg",
+                "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO4nameSSvg",
+                "moduleName": "MoonetixOfferwall",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoonetixOfferwall.MoonetixErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MoonetixOfferwall0A9ErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "MoonetixOfferwall",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A9ErrorCodeO8rawValueSivp",
+            "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO8rawValueSivp",
+            "moduleName": "MoonetixOfferwall",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A9ErrorCodeO8rawValueSivg",
+                "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO8rawValueSivg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode",
+        "mangledName": "$s17MoonetixOfferwall0A9ErrorCodeO",
+        "moduleName": "MoonetixOfferwall",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoonetixError",
+        "printedName": "MoonetixError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixErrorCode",
+                "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(py)code",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC4codeAA0aC4CodeOvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixErrorCode",
+                    "printedName": "MoonetixOfferwall.MoonetixErrorCode",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixErrorCode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)code",
+                "mangledName": "$s17MoonetixOfferwall0A5ErrorC4codeAA0aC4CodeOvg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(py)message",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC7messageSSvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)message",
+                "mangledName": "$s17MoonetixOfferwall0A5ErrorC7messageSSvg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "codeName",
+            "printedName": "codeName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(py)codeName",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC8codeNameSSvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)codeName",
+                "mangledName": "$s17MoonetixOfferwall0A5ErrorC8codeNameSSvg",
+                "moduleName": "MoonetixOfferwall",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(py)description",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC11descriptionSSvp",
+            "moduleName": "MoonetixOfferwall",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)description",
+                "mangledName": "$s17MoonetixOfferwall0A5ErrorC11descriptionSSvg",
+                "moduleName": "MoonetixOfferwall",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)isEqual:",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC7isEqualySbypSgF",
+            "moduleName": "MoonetixOfferwall",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hash",
+            "printedName": "hash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(py)hash",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC4hashSivp",
+            "moduleName": "MoonetixOfferwall",
+            "overriding": true,
+            "objc_name": "hash",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)hash",
+                "mangledName": "$s17MoonetixOfferwall0A5ErrorC4hashSivg",
+                "moduleName": "MoonetixOfferwall",
+                "overriding": true,
+                "objc_name": "hash",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixError",
+                "printedName": "MoonetixOfferwall.MoonetixError",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError(im)init",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorCACycfc",
+            "moduleName": "MoonetixOfferwall",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A5ErrorC16errorDescriptionSSSgvp",
+            "mangledName": "$s17MoonetixOfferwall0A5ErrorC16errorDescriptionSSSgvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A5ErrorC16errorDescriptionSSSgvg",
+                "mangledName": "$s17MoonetixOfferwall0A5ErrorC16errorDescriptionSSSgvg",
+                "moduleName": "MoonetixOfferwall",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixError",
+        "mangledName": "$s17MoonetixOfferwall0A5ErrorC",
+        "moduleName": "MoonetixOfferwall",
+        "objc_name": "MoonetixError",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoonetixPresentation",
+        "printedName": "MoonetixPresentation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fullScreen",
+            "printedName": "fullScreen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixPresentation.Type) -> MoonetixOfferwall.MoonetixPresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixPresentation",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixPresentation",
+                        "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation@MoonetixPresentationFullScreen",
+            "mangledName": "$s17MoonetixOfferwall0A12PresentationO10fullScreenyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "sheet",
+            "printedName": "sheet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoonetixOfferwall.MoonetixPresentation.Type) -> MoonetixOfferwall.MoonetixPresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixPresentation",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoonetixPresentation",
+                        "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                        "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation@MoonetixPresentationSheet",
+            "mangledName": "$s17MoonetixOfferwall0A12PresentationO5sheetyA2CmF",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoonetixOfferwall.MoonetixPresentation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixPresentation",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MoonetixOfferwall0A12PresentationO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17MoonetixOfferwall0A12PresentationO8rawValueACSgSi_tcfc",
+            "moduleName": "MoonetixOfferwall",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoonetixOfferwall0A12PresentationO8rawValueSivp",
+            "mangledName": "$s17MoonetixOfferwall0A12PresentationO8rawValueSivp",
+            "moduleName": "MoonetixOfferwall",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A12PresentationO8rawValueSivg",
+                "mangledName": "$s17MoonetixOfferwall0A12PresentationO8rawValueSivg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation",
+        "mangledName": "$s17MoonetixOfferwall0A12PresentationO",
+        "moduleName": "MoonetixOfferwall",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoonetixOptions",
+        "printedName": "MoonetixOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(py)title",
+            "mangledName": "$s17MoonetixOfferwall0A7OptionsC5titleSSSgvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)title",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC5titleSSSgvg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)setTitle:",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC5titleSSSgvs",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A7OptionsC5titleSSSgvM",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC5titleSSSgvM",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolbarColor",
+            "printedName": "toolbarColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(py)toolbarColor",
+            "mangledName": "$s17MoonetixOfferwall0A7OptionsC12toolbarColorSo7UIColorCSgvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)toolbarColor",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC12toolbarColorSo7UIColorCSgvg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)setToolbarColor:",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC12toolbarColorSo7UIColorCSgvs",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A7OptionsC12toolbarColorSo7UIColorCSgvM",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC12toolbarColorSo7UIColorCSgvM",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showLogo",
+            "printedName": "showLogo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(py)showLogo",
+            "mangledName": "$s17MoonetixOfferwall0A7OptionsC8showLogoSbvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)showLogo",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC8showLogoSbvg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)setShowLogo:",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC8showLogoSbvs",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A7OptionsC8showLogoSbvM",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC8showLogoSbvM",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "presentation",
+            "printedName": "presentation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixPresentation",
+                "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(py)presentation",
+            "mangledName": "$s17MoonetixOfferwall0A7OptionsC12presentationAA0A12PresentationOvp",
+            "moduleName": "MoonetixOfferwall",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixPresentation",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)presentation",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC12presentationAA0A12PresentationOvg",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoonetixPresentation",
+                    "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                    "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)setPresentation:",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC12presentationAA0A12PresentationOvs",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoonetixOfferwall0A7OptionsC12presentationAA0A12PresentationOvM",
+                "mangledName": "$s17MoonetixOfferwall0A7OptionsC12presentationAA0A12PresentationOvM",
+                "moduleName": "MoonetixOfferwall",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:toolbarColor:showLogo:presentation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixOptions",
+                "printedName": "MoonetixOfferwall.MoonetixOptions",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixPresentation",
+                "printedName": "MoonetixOfferwall.MoonetixPresentation",
+                "hasDefaultArg": true,
+                "usr": "c:@M@MoonetixOfferwall@E@MoonetixPresentation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)initWithTitle:toolbarColor:showLogo:presentation:",
+            "mangledName": "$s17MoonetixOfferwall0A7OptionsC5title12toolbarColor8showLogo12presentationACSSSg_So7UIColorCSgSbAA0A12PresentationOtcfc",
+            "moduleName": "MoonetixOfferwall",
+            "objc_name": "initWithTitle:toolbarColor:showLogo:presentation:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoonetixOptions",
+                "printedName": "MoonetixOfferwall.MoonetixOptions",
+                "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions(im)init",
+            "mangledName": "$s17MoonetixOfferwall0A7OptionsCACycfc",
+            "moduleName": "MoonetixOfferwall",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoonetixOfferwall@objc(cs)MoonetixOptions",
+        "mangledName": "$s17MoonetixOfferwall0A7OptionsC",
+        "moduleName": "MoonetixOfferwall",
+        "objc_name": "MoonetixOptions",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoonetixOfferwall"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BarStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 142,
+      "length": 11,
+      "value": "0xFF000000"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BarStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 11,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BarStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1838,
+      "length": 14,
+      "value": "\"Earn rewards\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BarStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 1886,
+      "length": 3,
+      "value": "4.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BarStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 1927,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "IntegerLiteral",
+      "offset": 444,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "Array",
+      "offset": 560,
+      "length": 16,
+      "value": "[\"moonetix.com\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Brand.swift",
+      "kind": "StringLiteral",
+      "offset": 5868,
+      "length": 10,
+      "value": "\"logo_url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 729,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 4,
+      "value": "8192"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "Dictionary",
+      "offset": 860,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "Dictionary",
+      "offset": 948,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "Dictionary",
+      "offset": 992,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1240,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 30,
+      "value": "\"com.moonetix.offerwall.brand\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/BrandLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1805,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/LinkPolicy.swift",
+      "kind": "Array",
+      "offset": 1058,
+      "length": 38,
+      "value": "[\"apps.apple.com\", \"itunes.apple.com\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/LinkPolicy.swift",
+      "kind": "Array",
+      "offset": 1143,
+      "length": 27,
+      "value": "[\"itms-apps\", \"itms-appss\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/LinkPolicy.swift",
+      "kind": "Array",
+      "offset": 1216,
+      "length": 24,
+      "value": "[\"tel\", \"mailto\", \"sms\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Moonetix.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1197,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Moonetix.swift",
+      "kind": "StringLiteral",
+      "offset": 7444,
+      "length": 136,
+      "value": "\"The app ID passed to Moonetix.configure(appId:) is invalid. It must be the 24-character lowercase hex ID from your Moonetix dashboard.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 609,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 711,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 41,
+      "value": "\"MoonetixError(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
+      "length": 1,
+      "value": "\"): \""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/MoonetixURLs.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 19,
+      "value": "\"wall.moonetix.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/MoonetixURLs.swift",
+      "kind": "StringLiteral",
+      "offset": 2046,
+      "length": 18,
+      "value": "\"0123456789ABCDEF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 637,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2020,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2102,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2141,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2174,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "Array",
+      "offset": 2402,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/MoonetixViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26913,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 11,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 11,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 11,
+      "value": "0xFF111827"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 11,
+      "value": "0xFF4B5563"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 11,
+      "value": "0xFFE5E7EB"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 11,
+      "value": "0xFF2563EB"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 11,
+      "value": "0xFFFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 11,
+      "value": "0xFF121212"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 11,
+      "value": "0xFF1E1E1E"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 11,
+      "value": "0xFFF3F4F6"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 11,
+      "value": "0xFFC4C9D1"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 722,
+      "length": 11,
+      "value": "0xFF2C2C2C"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 11,
+      "value": "0xFF60A5FA"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/Palette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 782,
+      "length": 11,
+      "value": "0xFF0B1220"
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/SDKInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 7,
+      "value": "\"2.0.1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/src\/MoonetixOfferwall\/Sources\/MoonetixOfferwall\/Internal\/SDKInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 5,
+      "value": "\"ios\""
+    }
+  ]
+}
